@@ -126,13 +126,15 @@
 .nav_cont h3{font-size: 12px; height: 30px; line-height: 30px;} 
 .navCont_list{line-height: 25px;}
 .navCont_list li{float: left; width: 50%;}
+.vertical li{width: auto; float: none; padding-left: 8px;}
+.vertical .nav_title,.vertical .nav_cont h3{font-family: "Microsoft YaHei","微软雅黑"; font-size: 14px;}
 
 /*产品分类标题*/
 .product_title{height: 34px; border-bottom: #cccccc solid 2px;}
 .product_title h3{width: 180px; border-bottom: #096dba solid 2px; height: 34px; line-height: 34px; text-indent: 9px; margin-bottom: -2px; position: relative;}
 
 /*产品分类商品*/
-.item{float: left; height: 265px;}
+.item{float: left; height: 265px; position: relative;}
 .img_item{height: 170px; text-align: center;}
 .item img{height: 170px;}
 .item p{line-height: 20px;}
@@ -141,3 +143,44 @@
 .money{color: #d4105a; font-weight: bold; padding-top: 10px;}
 .stars{width: 13px; height: 12px; overflow: hidden; background: url() left top no-repeat; display: inline-block; margin-right: 1px;}
 .item_cont{padding: 0 10px;}
+.popular{background: url() left top no-repeat; width: 12px; height: 12px; position: absolute; right: 0; top: 0;}
+
+/*产品筛选*/
+.screening{border-bottom: #ccc solid 1px; font-family: Verdana;}
+.screening dt{line-height: 32px; width: 74px; text-align: right; float: left; margin-right: 42px;}
+.limit{width: 55px; float: left; line-height: 32px;}
+.limit .active{background-color: #1d7ad9; color: #fff;}
+.screening a{padding: 2px;}
+.screening_list{line-height: 32px; width: 626px; float: left;}
+.screening_list li{width: 20%; float: left;}
+.screening_more{border: #ccc solid 1px; height: 23px; line-height: 23px; margin-top: 4px; float: left; padding-right: 11px; padding-left: 11px; margin-right: 10px;}
+.screening_more a{background: url() 92% center no-repeat; padding-right: 14px;}
+.addInfo{height: 31px; border: #ccc solid 1px; background-color: #f5f5f5;}
+.address{float: left;}
+.add_text{float: left; line-height: 31px; padding-left: 12px; padding-right: 6px;}
+.addInfo .select{margin-top: 4px;}
+.screening_text{line-height: 31px; padding-right: 80px; float: right;}
+.check{position: relative; top: -1px; _top: 4px;}
+.check input,.check label{vertical-align: middle;}
+.shop_number{position: relative; _top: 4px;}
+.shop_number em{color: #f00; font-style: normal; font-weight: bold;}
+.addCar{border: #999 solid 1px; height: 22px; display: inline-block; padding: 0 6px 0 23px; background: url() 6px center no-repeat;}
+.screening_list_more{padding-left: 0.5%;}
+.screening_list_more .item{width: 33.3%;}
+
+/*组件*/
+.select{border: #999 solid 1px; height: 22px; line-height: 22px; float: left; background-color: #fff; padding-left: 10px; position: relative; padding-right: 20px; z-index: 4;}
+.select h3{font-size: 12px; font-weight: normal;}
+.select span{position: absolute; right: 0; top: 0; height: 100%; width: 20px; background: url() center center no-repeat;}
+.select_show{position: absolute; left: -1px; top: 22px; background-color: #fff; width: 100%; border: #999 solid 1px; display: none;}
+.select_show li{padding-left: 10px;}
+
+/*page*/
+.page{text-align: center; position: relative; z-index: 2;}
+.page a{height: 24px; display: inline-block; line-height: 24px; border: #ccc solid 1px; padding: 0 12px; margin: 0 2px;}
+.page .omit{display: inline-block; padding: 0 12px; margin: 0 2px;}
+.morePage{padding-left: 14px; display: inline-block; height: 24px; line-height: 24px;}
+.pageNum{width: 29px; padding: 0 3px; border: #ccc solid 1px; height: 24px; line-height: 24px\9; text-align: center; margin-left: 4px;}
+.page_btn{width: 44px; height: 24px; line-height: 24px; background-color: #e8e8e8; border: #ccc solid 1px;}
+.ye{padding: 0 8px 0 6px;}
+.page a,.page span,.page input{vertical-align: middle; position: relative;}
