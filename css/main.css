@@ -374,3 +374,13 @@
 .login_list li{float: left; line-height: 20px;}
 .login_list span{color: #999; margin: 0 2px;}
 .reg_link{width: 115px; height: 31px; background-color: #ccc; position: absolute; right: 31px; bottom: -31px; text-align: center;}
+
+/*注册*/
+.regist_logo .comWidth{width: 630px;}
+.registBox{width: 628px; margin: 10px auto; border: #ccc solid 1px;}
+.regist_item{font: 14px/34px; width: 110px; text-align: right; float: left;}
+.regist_item i{color: red; font-style: normal; margin-right: 5px;}
+.input_item{width: 306px; float: left;}
+.registBox li{height: 70px; vertical-align: top;}
+.registBox .autoLogin{height: 46px; padding: 0;}
+.registBox .login_cont{padding: 35px 76px 20px 76px}
