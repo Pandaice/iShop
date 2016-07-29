@@ -303,3 +303,57 @@
 .stars_text{font-weight: bold; padding-left: 10px;}
 .comment_t{height: 30px; padding-top: 5px;}
 .comment_cont p{line-height: 30px;}
+
+/*购物车*/
+.stepBox{width: 396px; padding-top: 26px;}
+.step{background: url() left top no-repeat; height: 19px;}
+.step_text{color: #fff; font-size: 12px; line-height: 30px;}
+.step_text li{float: left;}
+.step01,.step03{width: 30%;}
+.step02{width: 40%; text-align: center;}
+.step03{text-align: right;}
+.step_text .active{color: #f3e402; font-weight: bold;}
+.shoppingCart{padding-top: 10px;}
+.shopping_cont{padding-bottom: 10px;}
+.shopping_item{border: #ccc solid 1px;}
+.shopping_tit{height: 31px; background-color: #f2f2f2; font-size: 16px; color: #444444; line-height: 31px; font-family: "Microsoft YaHei","微软雅黑"; text-indent: 12px; border-bottom: #e3e3e3 solid 1px;}
+.padding_shop{padding: 25px 30px;}
+.shopping_list_text{float: left; width: 76px; line-height: 24px;}
+.shopping_list li{height: 24px; margin-bottom: 10px;}
+.shopping_list_text em{color: #f30; font-style: normal; margin-right: 5px; width: 110px;}
+.cart_tel,.input{vertical-align: middle;}
+.input{height: 22px; border: #ccc solid 1px; padding: 0 6px; line-height: 22px\9;} 
+.input_s1{width: 64px;}
+.input_s2{width: 84px;}
+.input_b{width: 392px;}
+.jian{padding: 0 3px;}
+.affirm{width: 114px; height: 28px; text-align: center; color: #fff; background-color: #3377ff;}
+.radio{position: relative; top: 3px; margin-right: 4px;}
+.backCar{float: right; font-size: 12px; margin-right: 33px; color: #3377ff;}
+.shopping_tit a:hover{text-decoration: underline;}
+.cart_head{padding-top: 5px;}
+.cart_item{border-bottom: #ccc solid 1px; float: left;}
+.cart_head .cart_item{line-height: 28px;}
+.t_name{width: 440px; padding-left: 30px;}
+.t_price{width: 134px;}
+.t_return{width: 136px;}
+.t_num{width: 135px;}
+.t_subtotal{width: 123px;}
+.t_red{color: red;}
+.cart_cont{border-bottom: #ccc solid 1px;}
+.cart_cont .cart_item{border-bottom: none;}
+.cart_cont .t_price,.cart_cont .t_return,.cart_cont .t_num,.cart_cont .t_subtotal{line-height: 37px;}
+.car_shopInfo img{width: 90px; height: 100px; display: block; float: left;}
+.car_shopInfo_cont{padding-left: 90px; font-size: 12px;}
+.cart_link{line-height: 37px; margin-bottom: 30px;}
+.cart_link a:hover{text-decoration: underline;}
+.cart_info{color: #000;}
+.cart_message{line-height: 40px; padding-left: 30px; margin-bottom: 10px;}
+.cart_prompt{line-height: 40px; padding-left: 30px; color: red;}
+.cart_prompt_icon{background: url() left top no-repeat; width: 12px; height: 12px; display: inline-block; margin-right: 11px;}
+.cart_no_bor{border-bottom: none;}
+.cart_rmb{margin-bottom: 16px;}
+.cart_rmb i{font-size: 14px; color: #999; font-style: normal;}
+.cart_rmb span{font-size: 24px; font-family: Verdana; font-weight: bold; color: red;}
+.cart_btnBox{text-align: right;}
+.cart_btn{width: 165px; height: 33px; background-color: #e50007; font: 18px/33px; color: #fff;}
